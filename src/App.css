@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+}
+
+.hero {
+  height: 100vh;
+  position: relative;
+  color: rgb(70, 70, 70);
+}
+
+.hero video {
+  width: 100%;
+  top: -10vh;
+  position: absolute;
+  pointer-events: none;
+  z-index: 1;
+}
+
+.hero h2,
+h3 {
+  position: absolute;
+  z-index: 2;
+  top: 10%;
+  left: 15%;
+  transform: translate(-50%, -50%);
+}
+
+.hero h2 {
+  font-size: 3rem;
+  letter-spacing: 2px;
+}
+
+.hero h3 {
+  font-size: 1.5rem;
+  margin: 5rem 0rem;
+}
